@@ -28,7 +28,7 @@ jobs:
       #     pip install flake8
 
       - name: Run linter
-        run: docker compose run --rm app sh -c "flake8 ."
+        run: docker compose run --rm app sh -c "flake8"
         # run: flake8 .
 
       - name: Run Test
