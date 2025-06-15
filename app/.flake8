@@ -7,4 +7,6 @@ exclude =
     settings.py,
     dj_app/settings.py,
     dj_app\settings.py,
+    core/tests/*,
+    test*,
     
