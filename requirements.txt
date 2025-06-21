@@ -4,4 +4,6 @@ djangorestframework==3.16.0
 sqlparse==0.5.3
 tzdata==2025.2
 psycopg2
+drf-spectacular
+drf-spectacular[sidecar]
 
