@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'drf_spectacular_sidecar',  # required for Django collectstatic discovery
     'user',
+    'receipe',
 
 ]
 
