@@ -10,6 +10,6 @@ router.register('receipes', views.ReceipeViewSet)
 
 app_name = 'receipe'
 
-url_patterns = [
+urlpatterns = [
     path('', include(router.urls)),
 ]

@@ -25,7 +25,7 @@ from django.urls import path, include
 from core import views as core_views
 
 
-url_patterns = [
+urlpatterns = [
     path('', core_views.home, name="home"),
     path('admin/', admin.site.urls, name='admin'),
 
@@ -34,5 +34,5 @@ url_patterns = [
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='api-schema'), name='api-docs'),
     # path('api/redoc/', SpectacularRedocView.as_view(url_name='api-schema'), name='redoc'),
     path('api/user/', include('user.urls')),
-    path('api/receipe/', include('receipe.urls')),
+    path('api/', include('receipe.urls')),
 ]
